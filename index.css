@@ -1,0 +1,26 @@
+*{
+     margin: 0;
+}
+nav{
+     background-color: antiquewhite;
+     height: 100px;
+     margin: 0;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+nav img{
+     height: 100px;
+     width: 100px;
+}
+/* Vlen per te gjitha elemntet <a> qe jane
+brenda elementit <nav>*/
+nav a{
+     text-decoration: none;
+     color: blue;
+}
+/* Vlen vetem per elmentet <a> qe jane
+ direkt paselementit <nav> */
+nav > a{
+     color: red;
+}
